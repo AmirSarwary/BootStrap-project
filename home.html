@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    	<link rel="stylesheet" href="./css/bootstrap.min.css" >
+		<link rel="stylesheet" href="./css/home.css" >
+		<link rel="stylesheet" href="./css/bootstrap-icons.css">
+		<link rel="stylesheet" href="css/all.min.css">
+		<link rel="stylesheet" href="css/fontawesome.min.css">
+    <style> 
+      .text-blue1{
+        color:#155A9E;
+      }
+      .bg-blue1{
+        background-color: #155A9E;
+        }
+       .btn-blue1{
+        background-color: #155A9E;
+       } 
+      .text-justify{
+        text-align: justify;
+        }
+      .my-btn{
+        background-color: #155A9E;
+        color: white;
+        border: none;
+      }
+      .my-btn:hover{
+        background-color: darkblue;
+        cursor: pointer;
+      }
+      .custom-list{
+        list-style: none;
+        padding: 0;
+      }
+      .custom-list li::before{
+        content: ">>";
+        color: white;
+        margin-left: 5px;
+      }
+      .custom-link{
+        color: #dce1e6;
+        text-decoration: none;
+        transition: color 0.3s;
+      }
+      .custom-link:hover{
+        color: #ffffff;
+      }
+      .custom-btn {
+      border-top-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+        padding:0;
+      background-color: #fff;
+      color: blue;
+      padding: 10px 20px;
+      border: 1px solid #ddd;
+      display: flex;
+      align-items: center;
+      width: fit-content;
+      padding: 0;
+      padding-left: 0;
+      padding-right: 10px;
+      height: 40px;
+      }
+    .custom-btn i {
+      margin-right: 5px;
+      font-weight: bold;
+      vertical-align:middle;
+      font-size: 1.2rem;
+      height: 40px;
+    
+      
+    }
+    </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg data-bs-toggle bg-white bd-navbar sticky-top">
+  <div class="navbar-toggle container-fluid mx-auto rounded-4" style="width: 80%; ">
+    <a class="navbar-brand" href="#"><img src="../project1/images/logo.png" alt="" class="" width="50"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+     aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="flex-grow: 0;">
+    	<div class="navbar-nav"> 
+    </div>
+		<ul class="navbar-nav me-5"> 
+			<li class="nav-item col-6 col-lg-auto ms-3 fs-6 fw-semibold" style="  font-family: b-nazanin;">
+        <a class="nav-link py-2 px-0 px-lg-2" href="" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Examples');">سرمایه گذاری</a>
+      </li>
+			<li class="nav-item col-6 col-lg-auto ms-3 fs-6 fw-semibold" style="  font-family: b-nazanin;">
+        <a class="nav-link py-2 px-0 px-lg-2" href="" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Examples');"> آموزش</a>
+      </li>
+      			<li class="nav-item col-6 col-lg-auto ms-3 fs-6 fw-semibold" style="  font-family: b-nazanin;">
+        <a class="nav-link py-2 px-0 px-lg-2" href="./about.html" target="_blank" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Examples');">درباره ما</a>
+      </li>
+			<li class="nav-item col-6 col-lg-auto ms-3 fs-6 fw-semibold" style="  font-family: b-nazanin;">
+        <a class="nav-link py-2 px-0 px-lg-2" href="" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Examples');"> همکاری با ما</a>
+      </li>			
+      <li class="nav-item col-6 col-lg-auto ms-3 fs-6 fw-semibold" style="  font-family: b-nazanin;">
+        <a class="nav-link py-2 px-0 px-lg-2" href="" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Examples');">تماس با ما </a>
+      </li>
+			<li class="nav-item col-6 col-lg-auto ms-3 fs-6 fw-semibold" style="  font-family: b-nazanin;">
+        <a class="nav-link py-2 px-0 px-lg-2" href="" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Examples');"> اخبار و مقالات</a>
+      </li> 
+    </ul>
+		<div class="header-left d-flex pe-5 align-items-center" style="margin-right: 75px; list-style: none;">
+        <i class="bi bi-unlock2-fill text-white bg-blue1 fs-4 border " style="border-bottom-right-radius: 10px;"></i>
+		<button class="my-btn fw-bold w-auto"
+     style="border-top-left-radius: 10px;
+     height: 36px;
+     font-family: b-nazanin;
+    "> افتتاح حساب جدید </button>
+		</div>
+		</div>
+    </div>
+  </div>
+</nav>
+<div class="header-body-right z-2"></div>
+    <div class="mx-auto z-2" style="
+    margin-top: -370px;
+    float: left;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    height: 410px;
+    ">
+    <div style="
+    width: 300px;
+    ">
+<p class="text-end text-success fs-2 pe-5 " style="font-family: b-nazanin; margin-top: 100px; ">کارگزاری 
+<strong class="fw-bold fs-1 text-blue1 " style="font-family: b-nazanin;">هامرز</strong> </p>
+<p class="text-center text-black fw-medium fs-3 pe-5" style="font-family: b-nazanin;">انتخاب متمایز  </p>
+</div>
+    <div class="pt-4" style="
+    background-image: url(./images/leftbg.png);
+    width: 1000px;
+    ">
+     <ul class="p-1">
+      <li class="border border-primary-subtle bg-secondary-subtle-em pe-2 bg-light d-flex" 
+      style="width: 300px;
+      height:50px; 
+      border-bottom-left-radius: 20px;
+      border-top-right-radius: 20px;
+      font-family: b-nazanin;
+      " >
+       <img src="./images/person-check.svg " alt="" width="30">
+       <p class=" p-2 text-blue1 fw-bold"> 
+        <span class="text-secondary">ثبت نام</span> غیر حضوری بورس اوراق </p> </li>
+    </ul>
+      <ul style="list-style: none; padding: 0px; margin-right: 40px;">
+      <li class="border border-primary-subtle pe-2 bg-light" 
+      style="width: 300px; 
+      display: flex;
+      height:50px;
+      border-bottom-left-radius: 20px;
+      border-top-right-radius: 20px;
+      font-family: b-nazanin;" >
+      <i class="bi bi-window-fullscreen fs-4"></i>
+      <p class=" p-2 text-blue1 fw-bold" style="margin-bottom: 0px;"> 
+      <span class="text-secondary">ثبت نام</span>  غیر حضوری بورس کالا </p></li>
+    </ul>
+      <ul style="list-style: none; 
+      margin-right: 80px;">
+      <li class="border border-primary-subtle pe-2  bg-blue1 "
+       style="width: 300px; height:50px;
+      display: flex;
+      border-bottom-left-radius: 20px;
+      border-top-right-radius: 20px; font-family: b-nazanin;" >
+      <i class="bi bi-window-desktop fs-4"></i>
+      <p class=" p-2 text-white fw-bold"> 
+      <span class="text-secondary">ثبت نام </span> هویت سجام </p></li>
+    </ul>
+      <ul style="list-style: none; 
+      margin-right: 120px;">
+      <li class="border border-primary-subtle pe-2 bg-light"
+      style="width: 300px; 
+      display: flex;
+      height:50px;
+      border-bottom-left-radius: 20px;
+      border-top-right-radius: 20px;
+      font-family: b-nazanin;" >
+      <i class="bi bi-window-dock fs-4"></i>
+      <p class=" p-2 text-blue1 fw-bold text-blue1" > سرمایه گذاری حرفه ای </p></li>
+    </ul>
+</div>
+    </div>
+    <div class="mx-auto border z-2 d-flex" style="
+    float: left;
+    width: 90%;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    height: 350px;
+    align-items: center;
+    ">
+    <div style="
+    width: 500px;
+    ">
+    <p class="text-end text-blue1 fs-5 fw-bold pe-4 "
+    style="font-family: b-nazanin; "> 
+     سرمایه گذاری در بورس بزرگترین عامل ثروتمند شدن شما در بلند مدت
+
+  <p class="text-justify text-black fw-bold fs-6 px-5" 
+    style="font-family: b-nazanin; height: 150px; width: 550px;">
+    سرمایه گذاری در بورس بزرگترین عامل ثروتمند شدن شما 
+    در بلند مدتسرمایه گذاری در بورس بزرگترین 
+    عامل ثروتمند شدن شما در بلند مدتسرمایه گذاری در بورس بزرگترین عامل ثروتمند شدن 
+    شما در بلند مدتسرمایه گذاری در بورس بزرگترین عامل ثروتمند شدن شما در بلند مدتسرمایه
+    در بلند مدتسرمایه گذاری در بورس بزرگترین عامل ثروتمند شدن شما در بلند مدت </p>
+
+  <div class="d-flex float-start mt-5" 
+  style="
+  align-items: center;
+  text-align: center;">   
+		<button class="my-btn fw-bold w-auto fs-6"
+     style="border-bottom-right-radius: 10px;
+     height: 36px;
+     font-family: b-nazanin;
+    "> ازاینجا شروع کنید </button>
+    <i class="bi1 bi-arrow-left-short
+     text-white bg-blue1 fs-5 border" style="height: 38px;
+     border-top-left-radius: 10px;" ></i>
+  </div>
+</div>
+    <div class="rounded-end-5 bg-blue1" style="
+    background-image: url(./images/leftbg.png);
+    width: 600px;
+    height: 300px;
+    "><img src="./images/photo.jpg" class="float-end mt-5 me-4 " alt="" width="410"></div>
+    </div>
+    <div class="w-100 mt-2 float-start fw-bold"
+    style="font-family: b-nazanin; align-items: center;">
+    <p class="text-center fs-5 text-blue1 mb-0">
+      <img src="./images/pi1.png" alt="" class="ms-2" width="20"> اخبار و رویداد ها </p>
+  </div>
+  <div class="mx-auto z-2 d-flex pt-5" style="
+    width: 85%;
+    text-align: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    height: auto;
+    align-items: center;
+    ">
+    
+<div class="position-relative border border-secondary" style="
+     border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    width: 32%;
+    height: 300px;
+    ">
+    <div class="position-absolute top-0 start-50 translate-middle mt-5" style="width: 80%;">
+       <img src="./images/photo-r.jpg" alt="" class="img-fluid"
+     style="
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;">
+    </div>
+        <div class=" position-absolute text-justify px-2 fw-bold" style="margin-top: 140px;
+        font-size: 14px; width: 340px; height: 150px; text-align: start; font-family: b-nazanin;">
+<p class="text-blue1 text-justify">  بلند مدتسرمایه گذاری در بورس بزرگترین
+    عامل ثروتمند شدن شما در بلند مدتسرمایه گذاری در بورس</p>
+    <p class=" text-dark text-justify ">  بلند مدتسرمایه گذاری در بورس بزرگترین
+     ثروتمند شدن شما در بلند مدتسرمایه گذاری در بورس
+      عامل ثروتمند شدن شما در بلند مدتسرمایه گذاری در بورس</p>
+</div>
+<div class=" float-start w-50" style="
+    margin-top: 120px;
+    height: 178px;
+" ><img src="./images/bgb.png" alt="" class="img-fluid"></div>
+     <div class="position-absolute top-100 start-50 translate-middle">
+  <div class="d-flex" 
+  style="
+  justify-content: center;
+  align-items: center;
+  text-align: center;">   
+		<button class="my-btn1 fw-bold fs-6 border-1 border-primary text-blue1 bg-white"
+     style="border-bottom-right-radius: 10px;
+     height: 36px;
+     width: 100px;
+     font-family: b-nazanin;
+    "> ادامه مطلب </button>
+    <i class="bi1 bi-arrow-left-short fw-bold
+     text-blue1 fs-5 border-primary rounded-end-0 border bg-white" 
+     style="height: 36px; text-align: center;
+     border-top-left-radius: 10px; 
+     " ></i>
+  </div>
+     </div>
+</div>
+
+   <div class="position-relative border border-primary" style="
+     border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    width: 32%;
+    height: 300px;
+    ">
+    <div class="position-absolute top-0 start-50 translate-middle mt-5 " style="width: 80%;" >
+       <img src="./images/photo-r.jpg" alt="" class="img-fluid"
+     style="
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;">
+    </div>
+        <div class=" position-absolute text-justify px-2 fw-bold" style="margin-top: 140px;
+        font-size: 14px; width: 340px; height: 150px; text-align: start; font-family: b-nazanin;">
+<p class=" text-blue1 ">  بلند مدتسرمایه گذاری در بورس بزرگترین
+    عامل ثروتمند شدن شما در بلند مدتسرمایه گذاری در بورس</p>
+    <p class="text-dark text-justify">  بلند مدتسرمایه گذاری در بورس بزرگترین
+     ثروتمند شدن شما در بلند مدتسرمایه گذاری در بورس
+      عامل ثروتمند شدن شما در بلند مدتسرمایه گذاری در بورس</p>
+</div>
+<div class=" float-start w-50" style="
+    margin-top: 120px;
+    height: 178px;
+" ><img src="./images/bgb.png" alt="" class="img-fluid"></div>
+     <div class="position-absolute top-100 start-50 translate-middle">
+  <div class="d-flex" 
+  style="
+  justify-content: center;
+  align-items: center;
+  text-align: center;">   
+		<button class="my-btn1 fw-bold fs-6 border-1 border-primary text-white bg-blue1"
+     style="border-bottom-right-radius: 10px;
+     height: 36px;
+     width: 100px;
+     font-family: b-nazanin;
+    "> ادامه مطلب </button>
+    <i class="bi1 bi-arrow-left-short fw-bold
+     text-white fs-5 border-primary rounded-end-0 border-end border-white bg-blue1" 
+     style="height: 36px; text-align: center;
+     border-top-left-radius: 10px; 
+     " ></i>
+  </div>
+     </div>
+</div>
+   <div class="position-relative border border-secondary" style="
+     border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    width: 32%;
+    height: 300px;
+    ">
+    <div class="position-absolute top-0 start-50 translate-middle mt-5" style="width: 80%;">
+       <img src="./images/poho-l.jpg" alt="" class="img-fluid"
+     style="
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    ">
+    </div>
+        <div class=" position-absolute text-justify px-2 fw-bold" style="margin-top: 140px;
+        font-size: 14px; width: 340px; height: 150px; text-align: start; font-family: b-nazanin;">
+<p class=" text-blue1 ">  بلند مدتسرمایه گذاری در بورس بزرگترین
+    عامل ثروتمند شدن شما در بلند مدتسرمایه گذاری در بورس</p>
+    <p class=" text-dark text-justify">  بلند مدتسرمایه گذاری در بورس بزرگترین
+     ثروتمند شدن شما در بلند مدتسرمایه گذاری در بورس
+      عامل ثروتمند شدن شما در بلند مدتسرمایه گذاری در بورس</p>
+</div>
+<div class=" float-start w-50" style="
+    margin-top: 120px;
+    height: 178px;
+" ><img src="./images/bgb.png" alt="" class="img-fluid"></div>
+     <div class="position-absolute top-100 start-50 translate-middle">
+  <div class="d-flex" 
+  style="
+  justify-content: center;
+  align-items: center;
+  text-align: center;">   
+		<button class="my-btn1 fw-bold fs-6 border-1 border-primary text-blue1 bg-white"
+     style="border-bottom-right-radius: 10px;
+     height: 36px;
+     width: 100px;
+     font-family: b-nazanin;
+    "> ادامه مطلب </button>
+    <i class="bi1 bi-arrow-left-short fw-bold
+     text-blue1 fs-5 border-primary rounded-end-0 border bg-white" 
+     style="height: 36px; text-align: center;
+     border-top-left-radius: 10px; 
+     " ></i>
+      </div>
+     </div>
+    </div>
+</div>
+<div class=" z-2 d-flex float-end mt-5" style="
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height:auto;
+    text-align: center;
+    justify-content: space-between;
+    ">
+    <div class="bg-light" style="
+    border-bottom-left-radius: 20px;
+    width: 500px;
+    height: 350px;
+     "><img src="./images//logo.png" alt="" class="my-3"
+    style="width: 150px;">
+  </div>
+  <p class="text-end fw-bold fs-5 mb-3" style="width: 700px; height: 50px; font-family: b-nazanin;">
+    <img src="./images/pi1.png" alt=""width="30" class="py-2"> چرا هامرز بهترین انتخاب برای شماست </p>
+    <div class="mt-5 ms-2" style="
+    display: flex;
+    flex-direction: row;
+    width: 640px;
+    height: 300px;
+    margin-right: -650px;
+     ">
+     <div class="" style="width: 320px;
+     display: flex;
+     flex-direction: column;
+      ">
+      <div class="mb-3 border border-2 fw-bold pt-3" 
+      style="width: 280px; height: 100px;
+      border-bottom-left-radius: 10px;
+       border-top-right-radius: 10px;
+       font-family: b-nazanin;
+      "> <i class=" bi-book d-block text-center"></i> <span> آموزش اصول سرمایه</span> </div>
+      <div class="mb-2 border border-2" 
+      style="width: 280px; height: 100px;
+      border-bottom-left-radius: 10px;
+       border-top-right-radius: 10px;"></div>
+      <div class="border border-2" 
+      style="width: 280px; height: 100px;
+      border-bottom-left-radius: 10px;
+      border-top-right-radius: 10px;"></div>
+     </div>
+      <div class="me-4" style="width: 320px;
+     display: flex;
+     flex-direction: column;
+      ">
+      <div class="mb-3 border border-2" 
+      style="width: 280px; height: 100px;
+       border-bottom-left-radius: 10px;
+       border-top-right-radius: 10px;"></div>
+     <div class="mb-2 border border-2" 
+     style="width: 280px; height: 100px;
+     border-bottom-left-radius: 10px;
+       border-top-right-radius: 10px;"></div>
+     <div class="border border-2" 
+     style="width: 280px; height: 100px;
+     border-bottom-left-radius: 10px;
+       border-top-right-radius: 10px;"></div>
+     </div>
+  </div>
+  </div>
+    <div  class=" mx-auto mb-3"
+    style="width: 80%;
+    margin-top: 460px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px; 
+    ">
+<div class="d-flex align-items-center
+ justify-content-center border-bottom
+border-secondary border-3 " 
+    style="height: 40px; flex-direction: column;
+    width: 170px;
+    font-family: b-nazanin;
+    ">
+  <p class="m-0 text-blue1 fs-5"><img src="./images/pi1.png" class="p-2" alt="" width="40px ">گروه های مالی هامرز </p></div>
+<div class="d-flex w-100 align-items-center px-4" style="justify-content: space-between;">
+  <div class="footer-1"><img class=" mt-2" src="./images/last-logo1.png" alt="" width="80">
+	<p class="footer-1-txt fw-bold mb-0">اعتماد هامرز<br>
+	<span class="footer-1-txt-span text-black fs-sm">صندوق سرمایه گذاری با در آمد ثابت</span></p></div>
+	<div class="footer-2">
+	 <img class="footer-2-img" src="./images/last-logo2.png" alt="" width="80"></div>
+	<div class="footer-2"><img class="footer-2-img" src="./images/last-logo3.png" alt="" width="80"></div>
+	<div class="footer-2"><img class="footer-2-img" src="./images/last-logo4.png" alt="" width="80"></div>
+	</div>
+</div>
+<div  class=" mx-auto mb-3" style="width: 80%;
+margin-top: 10px;
+display: flex;
+flex-direction: column;
+align-items: center;
+height: 200px; 
+text-align: center;">
+<div class="d-flex justify-content-center " 
+    style="height: 40px; flex-direction: column; width: 170px; font-family: b-nazanin; ">
+  <p class="m-0 text-blue1 fs-5">
+    <img src="./images/pi1.png" class="p-2" alt="" width="40px ">نهاد های مالی  </p></div>
+  <div class="d-flex w-100 align-items-center" style="justify-content: space-between; height: 130px;">
+    <figure class="figure">
+      <div class="figure-2"><img class="footer-2-img" src="./images/o1.png" alt="" width="80"></div>
+  <figcaption class="figure-caption text-center fw-bold fs-5" 
+  style="width: 120px; height: auto; font-family: b-nazanin;"> سازمان بورس </figcaption>
+</figure>
+<figure class="figure">
+  	<div class="footer-2"><img class="footer-2-img" src="./images/o2.png" alt="" width="80"></div>
+  <figcaption class="figure-caption text-center fw-bold fs-5" 
+  style="width: 120px; height: auto; font-family: b-nazanin;"> سازمان بورس </figcaption>
+</figure>
+<figure class="figure">
+  	<div class="footer-2"><img class="footer-2-img" src="./images/o3.png" alt="" width="80"></div>
+  <figcaption class="figure-caption text-center fw-bold fs-5" 
+  style="width: 120px; height: auto; font-family: b-nazanin;"> بورس اوراق بهادار  </figcaption>
+</figure>
+<figure class="figure">
+    <div class="footer-2"><img class="footer-2-img" src="./images/o4.png" alt="" width="80"></div>
+  <figcaption class="figure-caption text-center fw-bold fs-5" 
+  style="width: 120px; height: auto; font-family: b-nazanin;"> بورس کالا  </figcaption>
+</figure>
+<figure class="figure">
+    <div class="footer-2"><img class="footer-2-img" src="./images/o5.png" alt="" width="80"></div>
+  <figcaption class="figure-caption text-center fw-bold fs-5" 
+  style="width: 120px; height: auto; font-family: b-nazanin;"> کانون کار گزاری  </figcaption>
+</figure>
+<figure class="figure">
+    <div class="footer-2"><img class="footer-2-img" src="./images/o6.png" alt="" width="80"></div>
+  <figcaption class="figure-caption text-center fw-bold fs-5" 
+  style="width: 120px; height: auto; font-family: b-nazanin;"> انجمن مالی  </figcaption>
+</figure>
+	</div>
+  </div>
+<div  class=" mx-auto bg-blue1" 
+style="width: 100%;
+margin-top: 10px;
+display: flex;
+flex-direction: column;
+align-items: center;
+height: auto;
+text-align: center;">
+<div class="d-flex border-3 border-white"
+    style="height: 100px; 
+    flex-direction: row; 
+    width: 80%; 
+    font-family: b-nazanin; 
+    border-style: dotted;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    justify-content: space-between;">
+    <div class="text-white" style="width: 300px; ">میدان شیخ بهایی ، ابتدای ده ونک ، پلاک 3 ، طبقه </div>
+    <div class="fs-3 fw-bold text-white " style="width: 200px;">021-88621638</div>
+    <div class="d-flex bg-blue1 text-center" style="width: 300px;
+    align-items: center;">
+      <div class="d-inline-block">
+  <button class="custom-btn">    از اینجا شروع کنید
+
+    <i class="bi bi-arrow-left border-primary border-end"></i>
+  </button>
+</div>
+    </div>
+ </div>
+	</div>
+      <footer class="bd-footer py-1 py-md-1 bg-blue1 d-flex " style="font-family: b-nazanin;">
+      <div class="container py-4 py-md-5 px-4 px-md-3 text-white">
+        <div class="row" style="justify-content: space-between; align-items: end;">
+          <div class="col-6 col-lg-2 offset-lg-1 mb-3 px-0 ms-0" >
+            <h5 class="mb-4 fw-bold">سرمایه گذاری</h5>
+            <ul class="custom-list fw-bold pe-2">
+              <li class="mb-2"><a href="#" class="custom-link">شروع سرمایه گذاری</a></li>
+              <li class="mb-2"><a href="#" class="custom-link" >راهکار های سرمایه گذاری</a></li>
+              <li class="mb-2"><a href="#" class="custom-link">صندوق های سرمایه گذاری</a></li>
+              <li class="mb-2"><a href="#" class="custom-link" >سرمایه گذاری در بورس</a></li>
+              <li class="mb-2"><a href="#" class="custom-link">طرح آسایش هامرز</a></li>
+              <li class="mb-2"><a href="#" class="custom-link" >سید گردانی اختصاصی هامرز</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-lg-2 offset-lg-1 mb-3 px-0 ms-0" >
+            <h5 class="mb-4 fw-bold">معاملات</h5>
+            <ul class="custom-list fw-bold pe-2">
+              <li class="mb-2"><a href="#" class="custom-link">شروع سرمایه گذاری</a></li>
+              <li class="mb-2"><a href="#" class="custom-link" >راهکار های سرمایه گذاری</a></li>
+              <li class="mb-2"><a href="#" class="custom-link">صندوق های سرمایه گذاری</a></li>
+              <li class="mb-2"><a href="#" class="custom-link" >سرمایه گذاری در بورس</a></li>
+              <li class="mb-2"><a href="#" class="custom-link">طرح آسایش هامرز</a></li>
+              <li class="mb-2"><a href="#" class="custom-link" >سید گردانی اختصاصی هامرز</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-lg-2 offset-lg-1 mb-3 px-0 ms-0" >
+            <h5 class="mb-4 fw-bold">آموزش</h5>
+            <ul class="custom-list pe-0 fw-bold pe-2">
+              <li class="mb-2"><a href="#" class="custom-link">شروع سرمایه گذاری</a></li>
+              <li class="mb-2"><a href="#" class="custom-link" >راهکار های سرمایه گذاری</a></li>
+              <li class="mb-2"><a href="#" class="custom-link">صندوق های سرمایه گذاری</a></li>
+              <li class="mb-2"><a href="#" class="custom-link" >سرمایه گذاری در بورس</a></li>
+              <li class="mb-2"><a href="#" class="custom-link">طرح آسایش هامرز</a></li>
+              <li class="mb-2"><a href="#" class="custom-link" >سید گردانی اختصاصی هامرز</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-lg-2 offset-lg-1 mb-3 px-0 ms-0" >
+            <h5 class="mb-4 fw-bold">دسترسی سریع</h5>
+            <ul class="custom-list pe-0 fw-bold pe-2">
+              <li class="mb-2"><a href="#" class="custom-link">شروع سرمایه گذاری</a></li>
+              <li class="mb-2"><a href="#" class="custom-link" >راهکار های سرمایه گذاری</a></li>
+              <li class="mb-2"><a href="#" class="custom-link">صندوق های سرمایه گذاری</a></li>
+              <li class="mb-2"><a href="#" class="custom-link" >سرمایه گذاری در بورس</a></li>
+              <li class="mb-2"><a href="#" class="custom-link">طرح آسایش هامرز</a></li>
+              <li class="mb-2"><a href="#" class="custom-link" >سید گردانی اختصاصی هامرز</a></li>
+            </ul>
+          </div>
+          <div class="mb-3 bg-light d-flex z-1" style="height: 100px; width: 100px; align-items: end;"></div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/bootstrap.bundle.min.js"> </script>
+</body>
+</html>
